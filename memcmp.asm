@@ -14,8 +14,7 @@ memcmp:
         movzx   ecx, byte [rsi-1]
         sub     rax, rcx
         ret
-equal:
-        xor     eax, eax
+equal:  xor     eax, eax
         ret
 
 _tmain:
